@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #yo{
+            background:linear-gradient(to right, yellow, orange, darkorange);
+        }
+        #eee{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body id="yo">
+    <h1 id="eee"><center>Welcome to My amazing form!</center></h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Name:</label>
+            <input type="text" placeholder="Name"><br><br>
+            <label>Contact No.</label>
+            <input type="password" placeholder="Contact"><br><br>
+            <label>Age</label>
+            <input type="number" min="1" max="120" placeholder="Age"><br><br>
+            <label>Weight</label>
+            <input type="number" min="1" max="500" placeholder="Kg's"><br><br>
+            <label>Gender</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="Male">Male
+            <input type="radio" id="gender" name="gender" value="Dumb">Dumb<br><br>
+            <label>Iq Level</label>
+            <Select id="IQ">
+                <option value="Dumb">Dumb</option>
+                <option value="ookok">Average</option>
+                <option value="smart">Smart</option>
+                <option value="Very smart">Very Smart</option></Select><br><br>
+                <label>Contact No.</label>
+            <input type="password" placeholder="CVV (Not a scam!!!!)"><br><br>
+            <center><input type="submit" value="Submit"></center>
+        </fieldset>
+    </form>
+</body>
+</html>
